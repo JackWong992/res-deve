@@ -138,4 +138,4 @@ flexible原理：通过hack手段获取设备的dpr的值，相应改变meta标�
 
 预览方式：
 1. 本地：git clone 项目地址
-2. 线上：  
+2. 线上：https://jackwong992.github.io/res-deve/src/index.html
