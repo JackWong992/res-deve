@@ -1,0 +1,32 @@
+{
+  "name": "res-dev",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JackWong992/res-dev.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JackWong992/res-dev/issues"
+  },
+  "homepage": "https://github.com/JackWong992/res-dev#readme",
+  "devDependencies": {
+    "autoprefixer": "^9.1.5",
+    "cssnano": "^4.1.0",
+    "gulp": "^3.9.1",
+    "gulp-postcss": "^8.0.0",
+    "postcss-px2rem": "^0.3.0"
+  },
+  "browserslist": [
+    ">1%",
+    "IE 10"
+  ]
+}

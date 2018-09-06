@@ -1,0 +1,98 @@
+/*公共样式*/
+
+html {
+  background: #ff50ac;
+}
+
+a {
+  text-decoration: none;
+}
+
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.pull-left {
+  float: left;
+}
+
+.pull-right {
+  float: right;
+}
+
+/* main css */
+
+.desktop {
+  max-width: 16rem;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 0.213333rem;
+}
+
+.desktop-header {
+  height: 1.146667rem;
+  line-height: 1.146667rem;
+  width: 100%;
+}
+
+.desktop-header-r>nav>ul>li {
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 0 0.16rem;
+}
+
+.desktop-header-r a {
+  color: #ffffff;
+}
+
+.desktop-nav-active {
+  border-top: 0.053333rem solid #ffffff;
+}
+
+.desktop-header-l {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  font-size: 0.266667rem;
+  font-weight: 500;
+  color: #fff;
+}
+
+.desktop-header-logo {
+  width: 0.4rem;
+  height: 0.4rem;
+  display: inline-block;
+  margin-right: 0.066667rem;
+}
+
+/*
+  媒体查询断点 desktoppad规则
+*/
+
+.mobile {
+  display: none;
+}
+
+/*
+  媒体查询断点 mobile规则
+*/
+
+@media (max-width: 768px) {
+  .desktop {
+    display: none;
+  }
+
+  .mobile {
+    display: block;
+  }
+
+  .mobile-nav {
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+    opacity: .7;
+    margin-top: 96rem;
+  }
+}
